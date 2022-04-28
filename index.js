@@ -23,7 +23,7 @@ async function start(passport, name, dob) {
 
     let message = `Yo Yo, your Singapore Spass/EP status got updated to ${status}!`;
 
-    if (status != ": Pending" || configs["debug"] == true) {
+    if (status != ": Pending" || configs["debug"] == "true") {
         send_telegram_msg(encodeURIComponent(message));
     }
 }

@@ -8,6 +8,8 @@ module.exports = {
     //Run crawler with headless
     is_headless: {
         headless: true,
+        executablePath: "/snap/bin/chromium",
+        args: ["--no-sandbox", "--disable-setuid-sandbox"],
     },
 
     // telegram bot_token
