@@ -1,0 +1,19 @@
+{
+  "name": "sg-pass-status",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Set Kyar Wa Lar",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.2.0",
+    "dotenv": "^16.0.0",
+    "html-table-to-json": "^1.0.0",
+    "puppeteer": "^13.6.0",
+    "request": "^2.88.2"
+  }
+}
